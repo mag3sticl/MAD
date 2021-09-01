@@ -236,7 +236,7 @@ class DbPogoProtoSubmit:
                     pokemon_display.get("gender_value", None),
                     pokemon_data.get("move_1"),
                     pokemon_data.get("move_2"),
-                    pokemon_display.get("form_value", None) )
+                    pokemon_display.get("form_value", None))
 
     def mon_iv(self, origin: str, timestamp: float, encounter_proto: dict, mitm_mapper):
         """
